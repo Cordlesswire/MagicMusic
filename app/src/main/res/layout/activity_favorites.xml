@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.anandparmeetsingh.magicmusic.Favorites">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/colorPrimaryDark"
+        android:baselineAligned="false"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/nowPlaying"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#FF9800">
+
+            <ImageView
+                android:id="@+id/icon2"
+                style="@style/RelativeImageView"
+                android:contentDescription="@string/explore"
+                android:src="@drawable/musical" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/playlist"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#FB8C00">
+
+            <ImageView
+                android:id="@+id/icon1"
+                style="@style/RelativeImageView"
+                android:contentDescription="@string/radio"
+                android:src="@drawable/playlist" />
+
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/favoritesInfo" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/colorPrimaryDark"
+        android:baselineAligned="false"
+        android:gravity="bottom"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/radio"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#E65100">
+
+            <ImageView
+                android:id="@+id/icon3"
+                style="@style/RelativeImageView"
+                android:contentDescription="@string/explore"
+                android:src="@drawable/explore" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/explore"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#EF6C00">
+
+            <ImageView
+                android:id="@+id/icon4"
+                style="@style/RelativeImageView"
+                android:contentDescription="@string/radio"
+                android:src="@drawable/radios" />
+
+
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>
+

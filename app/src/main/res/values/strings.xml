@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name" translatable="false">Magic Music</string>
+    <string name="now_playing">Now Playing</string>
+    <string name="library">Library</string>
+    <string name="explore">Explore</string>
+    <string name="PlayList">Playlist</string>
+    <string name="radio">Radio</string>
+    <string name="favorites">Favorites</string>
+    <string name="playlistInfo">Here users stored playlist will be shown. We can use spinner and tab view here and when the user will click on any song he will be taken to Now Playing activity.</string>
+    <string name="favoritesInfo">Here those songs and album will be shown which are marked liked by the user.</string>
+    <string name="nowPlaying">In Now Playing current track will be displayed. Here we can add pause,play,shuffle buttons etc.</string>
+    <string name="radioInfo">In this screen user can stream radio. We can add local and global radio. We can also integrate some apps in this screen.</string>
+    <string name="exploreInfo">Here user can browse and purchase new songs and add them to his/her playlist.</string>
+    <string name="libraryInfo">Here all the songs and album of the user will shown. I can use cards to display recently played and spinner for various purpose. </string>
+</resources>
